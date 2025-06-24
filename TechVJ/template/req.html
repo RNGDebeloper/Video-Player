@@ -97,7 +97,7 @@
             <script>
                 const embedTextArea = document.getElementById('embedCode');
                 const currentUrl = window.location.href;
-                const embedIframe = `<iframe src="${currentUrl}" width="100%" height="500" frameborder="0" allowfullscreen></iframe>`;
+                const embedIframe = `<iframe src="${{file_url}},{{file_url_two}},{{file_url_three}}" width="100%" height="500" frameborder="0" allowfullscreen></iframe>`;
                 embedTextArea.value = embedIframe;
             </script>
             <!-- EMBED FEATURE END -->
